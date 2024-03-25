@@ -13,16 +13,14 @@ function App() {
     <div className="App">
       <div className="btn-main-page">
         <button onClick={() => navigate("/problem-1")}>
-          Bucket List Problem
+          1 - Element Transfer
         </button>
-        <button onClick={() => navigate("/problem-2")}>
-          Nested List Problem
-        </button>
+        <button onClick={() => navigate("/problem-2")}>2 - Nested List</button>
         <button onClick={() => navigate("/problem-3")}>
-          Infinite Scroll Problem
+          3 - Infinite Scroll
         </button>
-        <button onClick={() => navigate("/problem-4")}>Hit Game Problem</button>
-        <button onClick={() => navigate("/problem-5")}>Box Split</button>
+        <button onClick={() => navigate("/problem-4")}>4 - Game</button>
+        <button onClick={() => navigate("/problem-5")}>5 - Box Split</button>
       </div>
       <Routes>
         <Route path="/" element={<WelcomePage />}></Route>
