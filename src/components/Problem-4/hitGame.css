@@ -1,0 +1,46 @@
+.score-text,
+.start-btn,
+.game-div,
+.square-main {
+  margin-top: 10px;
+}
+
+.start-btn {
+  width: 100px;
+  background-color: black;
+  color: white;
+  border-radius: 20px;
+  height: 30px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.start-btn:hover {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  border: 1px solid black;
+}
+
+.square-row {
+  display: flex;
+}
+
+.square-btn {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  border-width: 0.5px;
+}
+
+.game-container {
+  display: flex;
+}
